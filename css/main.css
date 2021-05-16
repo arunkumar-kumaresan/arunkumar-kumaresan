@@ -50,7 +50,8 @@ h2 {
     text-align: center;
     padding: 0.5em;
 }
-h3 {
+h3,
+.greet {
     font-size: 2rem;
     line-height: 2.5rem;
     padding: 0.5em;
@@ -186,7 +187,7 @@ main {
     justify-content: center;
     width: 80%;
 }
-.hero__text h3 {
+.greet {
     padding-left: 0;
     padding-bottom: 0;
 }
@@ -277,12 +278,12 @@ main {
         max-width: 400px;
     }
 }
-/* Contact */
-.contact__wrapper {
+/* social */
+.social__wrapper {
     display: flex;
     justify-content: center;
 }
-.contact__wrapper img {
+.social__wrapper img {
     display: inline-block;
     margin: 0.5em;
     width: 50px;
